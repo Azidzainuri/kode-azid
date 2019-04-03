@@ -88,6 +88,9 @@ a {
 .related-post-style-2 .related-post-item-thumbnail:after{content:"";cursor:pointer;margin:auto;width:48px;height:48px;border-radius:4px;background-color:rgba(0,0,0,.5);background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z' fill='%23ffffff'%3E%3C/path%3E%3C/svg%3E");background-position:center;-webkit-background-size:40px 40px;background-size:40px 40px;position:absolute;top:0;bottom:0;left:0;right:0;opacity:0;transition:all 400ms ease-in-out;}
 .related-post-style-2 li:hover .related-post-item-thumbnail:after{opacity:.8}
 @media screen and (max-width:800px){
+.related-post-style-2 li {
+width:50%;
+}
 .related-post {
   margin:0 auto;
   height:532.84px;
@@ -103,16 +106,6 @@ a {
   margin:0;
   padding:0;
   list-style:none;
-}
-.related-post-style-2 li {
-	width:100%;
-	height:82.14px;
-   display: block;
-   padding:0;
-    float: none;
-    overflow: hidden;
-    margin:0 0 8px;
-	list-style:none;
 }
 .related-post-style-2 li a:hover {color:#2B0C93}
 .related-post-style-2 .related-post-item-thumbnail {
@@ -147,6 +140,17 @@ a {
 	font-size: 90%!important;
 }
 }
+	@media screen and (max-width:414px){
+	.related-post-style-2 li {
+	width:100%;
+	height:82.14px;
+   display: block;
+   padding:0;
+    float: none;
+    overflow: hidden;
+    margin:0 0 8px;
+	list-style:none;
+		}}
 /* ==== Related Post Widget End ==== */
 </style>
 </head>
