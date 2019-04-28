@@ -1,37 +1,37 @@
 {
-  "name": "azid.web.id",
-  "short_name": "Azid Zainuri",
+  "name": "AzidBlogger",
+  "short_name": "Azid Blogger",
   "start_url": "https://www.azid.web.id/?m=1",
   "display": "standalone",
   "background_color": "#fff",
-  "theme_color": "#00664d",
-  "description": "Blog Azid Zainuri yang membahas tentang tutorial, template dan adsense",
+  "theme_color": "#020c28",
+  "description": "Azid Blogger adalah media berbagi template premium, template gratis, tutorial blogger, tutorial AMP, belajar SEO dan google adsense",
   "icons": [{
-    "src": "https://cdn.staticaly.com/img/1.bp.blogspot.com/-69F6pIoFgSE/XFle7h0PKOI/AAAAAAAAAHU/wgxjbQDZP4s8Qz4WoulpZ64J6AMENQmNgCK4BGAYYCw/s48/favicon-azid-web-id.jpg",
+    "src": "https://cdn.staticaly.com/img/1.bp.blogspot.com/-pMcYvhDAA3w/XMVkHZVfkYI/AAAAAAAAAS8/WrF2PSG99CEWSI-zAqQEkmFBs7WrlBfKQCLcBGAs/s48/logo.png",
     "sizes": "48x48",
     "type": "image/png"
   }, {
-    "src": "https://cdn.staticaly.com/img/1.bp.blogspot.com/-69F6pIoFgSE/XFle7h0PKOI/AAAAAAAAAHU/wgxjbQDZP4s8Qz4WoulpZ64J6AMENQmNgCK4BGAYYCw/s72/favicon-azid-web-id.jpg",
+    "src": "https://cdn.staticaly.com/img/1.bp.blogspot.com/-pMcYvhDAA3w/XMVkHZVfkYI/AAAAAAAAAS8/WrF2PSG99CEWSI-zAqQEkmFBs7WrlBfKQCLcBGAs/s72/logo.png",
     "sizes": "72x72",
     "type": "image/png"
   }, {
-    "src": "https://cdn.staticaly.com/img/1.bp.blogspot.com/-69F6pIoFgSE/XFle7h0PKOI/AAAAAAAAAHU/wgxjbQDZP4s8Qz4WoulpZ64J6AMENQmNgCK4BGAYYCw/s96/favicon-azid-web-id.jpg",
+    "src": "https://cdn.staticaly.com/img/1.bp.blogspot.com/-pMcYvhDAA3w/XMVkHZVfkYI/AAAAAAAAAS8/WrF2PSG99CEWSI-zAqQEkmFBs7WrlBfKQCLcBGAs/s96/logo.png",
     "sizes": "96x96",
     "type": "image/png"
   }, {
-    "src": "https://cdn.staticaly.com/img/1.bp.blogspot.com/-69F6pIoFgSE/XFle7h0PKOI/AAAAAAAAAHU/wgxjbQDZP4s8Qz4WoulpZ64J6AMENQmNgCK4BGAYYCw/s144/favicon-azid-web-id.jpg",
+    "src": "https://cdn.staticaly.com/img/1.bp.blogspot.com/-pMcYvhDAA3w/XMVkHZVfkYI/AAAAAAAAAS8/WrF2PSG99CEWSI-zAqQEkmFBs7WrlBfKQCLcBGAs/s144/logo.png",
     "sizes": "144x144",
     "type": "image/png"
   }, {
-    "src": "https://cdn.staticaly.com/img/1.bp.blogspot.com/-69F6pIoFgSE/XFle7h0PKOI/AAAAAAAAAHU/wgxjbQDZP4s8Qz4WoulpZ64J6AMENQmNgCK4BGAYYCw/s168/favicon-azid-web-id.jpg",
+    "src": "https://cdn.staticaly.com/img/1.bp.blogspot.com/-pMcYvhDAA3w/XMVkHZVfkYI/AAAAAAAAAS8/WrF2PSG99CEWSI-zAqQEkmFBs7WrlBfKQCLcBGAs/s168/logo.png",
     "sizes": "168x168",
     "type": "image/png"
   }, {
-    "src": "https://cdn.staticaly.com/img/1.bp.blogspot.com/-69F6pIoFgSE/XFle7h0PKOI/AAAAAAAAAHU/wgxjbQDZP4s8Qz4WoulpZ64J6AMENQmNgCK4BGAYYCw/s192/favicon-azid-web-id.jpg",
+    "src": "https://cdn.staticaly.com/img/1.bp.blogspot.com/-pMcYvhDAA3w/XMVkHZVfkYI/AAAAAAAAAS8/WrF2PSG99CEWSI-zAqQEkmFBs7WrlBfKQCLcBGAs/s192/logo.png",
     "sizes": "192x192",
     "type": "image/png"
   }, {
-    "src": "https://cdn.staticaly.com/img/1.bp.blogspot.com/-69F6pIoFgSE/XFle7h0PKOI/AAAAAAAAAHU/wgxjbQDZP4s8Qz4WoulpZ64J6AMENQmNgCK4BGAYYCw/s512/favicon-azid-web-id.jpg",
+    "src": "https://cdn.staticaly.com/img/1.bp.blogspot.com/-pMcYvhDAA3w/XMVkHZVfkYI/AAAAAAAAAS8/WrF2PSG99CEWSI-zAqQEkmFBs7WrlBfKQCLcBGAs/s512/logo.png",
     "sizes": "512x512",
     "type": "image/png"
   }]
