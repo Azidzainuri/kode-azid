@@ -67,15 +67,7 @@ function removeClassBody() {
 var lazyaddthis = false;
 window.addEventListener("scroll", function(){
 if ((document.documentElement.scrollTop != 0 && lazyaddthis === false) || (document.body.scrollTop != 0 && lazyaddthis === false)) {
-	
-        // SIMPAN KODE JAVASCRIPT DISQUS DI BAWAH INI
-    (function() {  // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');      
-        s.src = '//'+shortname+'.disqus.com/recent_comments_widget.js?num_items=22&hide_mods=1&hide_avatars=0&avatar_size=32&excerpt_length=80';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-
+document.write("<scr" + "ipt type=\"text/javascript\" src=\"https://" + getQueryVariable('shortname') + ".disqus.com/recent_comments_widget.js?num_items=22&hide_mods=1&hide_avatars=0&avatar_size=32&excerpt_length=80\"></scr" + "ipt>")
 lazyaddthis = true;
   }
 }, true);
