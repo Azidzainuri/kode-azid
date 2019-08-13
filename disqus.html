@@ -1,3 +1,4 @@
+
 <div id="disqus_thread"></div>
 <script>
   window.addEventListener('message', receiveMessage, false);
@@ -54,5 +55,12 @@ head.appendChild(style);
         this.page.title = getQueryVariable('title');
     };
     
-function jump(t){var e=document.getElementById(t).offsetTop;window.scrollTo(0,e)}var lazyaddthis=!1;window.addEventListener("scroll",function(){(0!=document.documentElement.scrollTop&&lazyaddthis===!1||0!=document.body.scrollTop&&lazyaddthis===!1)&&(!function(){var t=document,e=t.createElement("script");e.src="//"+shortname+".disqus.com/embed.js",e.setAttribute("data-timestamp",+new Date),(t.head||t.body).appendChild(e)}(),lazyaddthis=!0)},!0);
+    (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+        var d = document, s = d.createElement('script');
+        
+        s.src = '//'+disqus_shortname+'.disqus.com/embed.js';  // IMPORTANT: Replace EXAMPLE with your forum shortname!
+        
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
 </script>
